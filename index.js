@@ -11,4 +11,4 @@ app.get('/bus',async(req, res)=>{
     res.send(json.data);
 });
 
-app.listen('3000',()=>console.log('Running on 3000'));
+app.listen('3000',()=>console.log('MBTA Bus API running on 3000'));
